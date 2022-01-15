@@ -6,7 +6,7 @@
 
   /*========== Colors ==========*/
   /* Change favorite color */
-  --hue-color: 230; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+  --hue-color: 210; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
   /* HSL color mode */
   --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -788,35 +788,6 @@ img {
   outline: none;
 }
 
-/*==================== PROJECT IN MIND ====================*/
-.project {
-  text-align: center;
-}
-
-.project__bg {
-  background-color: var(--first-color-second);
-  padding-top: 3rem;
-}
-
-.project__title {
-  font-size: var(--h2-font-size);
-  margin-bottom: var(--mb-0-75);
-}
-
-.project__description {
-  margin-bottom: var(--mb-1-5);
-}
-
-.project__title,
-.project__description {
-  color: #fff;
-}
-
-.project__img {
-  width: 232px;
-  justify-self: center;
-}
-
 /*==================== CONTACT ME ====================*/
 .contact__container {
   row-gap: 3rem;
@@ -1004,10 +975,6 @@ img {
   .services__modal {
     padding: 0 0.5rem;
   }
-
-  .project__img {
-    width: 200px;
-  }
 }
 
 /* For medium devices */
@@ -1163,7 +1130,7 @@ img {
     .project__container {
       background-color: var(--first-color-second);
       border-radius: 1rem;
-      padding: 3rem 2.5rem 0;
+      padding: 3rem 2.5rem 2rem;
       grid-template-columns: 1fr max-content;
       column-gap: 3rem;
     }
@@ -1206,7 +1173,7 @@ img {
   }
 
   .services__container {
-    grid-template-columns: repeat(3, 238px);
+    grid-template-columns: repeat(2, 238px);
   }
 
   .portfolio__content {
